@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Load both fonts ONCE, in the head -->
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&family=Chakra+Petch:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+    	background-image: url("https://www.calembou.com/cdn/shop/files/alien-stage-series-blind-box-random-one-893.webp?v=1766224024");
+    	background-size: cover;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	color: black;
+    	font-family: Arial, sans-serif;
+}
+
+.page-overlay {
+  background: rgba(0,0,0,0.65);
+  min-height: 100vh;
+}
+
+    /* Heading font */
+    h1 {
+      font-family: 'Exo 2', sans-serif;
+      color: lightskyblue;
+      font-size: 45px;
+      text-align: center;
+    }
+
+    /* Paragraph font */
+    .chakra {
+      font-family: 'Chakra Petch', sans-serif;
+    }
+
+    .alien {
+      color: white;
+    }
+
+    #highlight {
+    	font-family: 'Chakra Petch', sans-serif;
+    	color: pink;
+    	font-size: 30px;
+    }
+
+    .thumbnail {
+    box-shadow: 0 0 20px lightskyblue;
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  .thumbnail:hover {
+    box-shadow: 0 0 35px hotpink;
+    transform: scale(1.03);
+  }
+
+  .content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+}
+  </style>
+</head>
+
+<body>
+
+<h1>AMORAH'S WEBSITE</h1>
+
+<div class="content-grid">
+
+  <div class="card">
+    <p id="highlight">Welcome to my webpage!</p>
+    <p class="alien chakra">Come here for all you need to know about AlienStage!</p>
+
+    <a href="https://youtu.be/qQlVtAiFARI" target="_blank">
+      <img src="https://img.youtube.com/vi/qQlVtAiFARI/maxresdefault.jpg"
+           class="thumbnail"
+           width="350">
+    </a>
+  </div>
+
+  <div class="card">
+    <p class="alien chakra">
+      Learn about the <strong>lore</strong> and <strong>comics</strong> of Alien Stage on their Patreon!
+    </p>
+
+    <a href="https://www.patreon.com/VIVINOS">
+      <img src="https://i.redd.it/ivan-and-sua-comic-v0-sv4nfk2qkv1d1.jpg?width=1500&format=pjpg&auto=webp&s=a9bdb6309f76e2175ec6e758852d81bc129cc411"
+           class="thumbnail"
+           width="350">
+    </a>
+  </div>
+</div>
+
+	<p class="alien chakra">
+		<strong>Are you into doomed relationships? Elaborate worldbuilding and lore? Anti-slavery themes?</strong>
+	</p>
+
+	<a href="https://alienstage.fandom.com/wiki/ALIEN_STAGE_Wiki">
+      <img src="https://preview.redd.it/alien-stage-if-it-was-adapted-into-a-kdrama-kmovie-v0-bom7shkvv43f1.gif?width=640&crop=smart&auto=webp&s=b2b69f3944a248a3ebaa846c795e5f650fad94d4"
+           class="thumbnail"
+           width="350"
+           style="margin-left: 50px;"
+           >
+    </a> 
+
+<center>
+    <p id="highlight"><strong>Then you're in luck!</strong></p>
+</center>
+
+
+</body>
+
+</html>
